@@ -3,7 +3,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 import os
 
 from hangman import hangman
-from textAdventure import Game
+from textAdventure import game
 
 app = Flask(__name__)
 
